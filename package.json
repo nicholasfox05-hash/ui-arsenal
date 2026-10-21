@@ -1,0 +1,10 @@
+{
+  "name": "ui-arsenal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first workbench for discovering, reviewing and reusing UI components.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server/index.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check server/index.mjs && node --check lib/catalog.mjs && node --check lib/search.mjs" }
+}
