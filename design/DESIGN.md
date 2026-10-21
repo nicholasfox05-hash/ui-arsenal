@@ -1,4 +1,17 @@
-# Arsenal visual contract — proposed, awaiting selection
+# Arsenal visual contract — shadcn selected 2026-10-21
+
+The user selected https://ui.shadcn.com/ as the whole-site reference, superseding
+the three concepts below. Match the compact 64px header, Geist typography, monochrome
+light/dark themes, centered 48px hero, rounded live-example cards, command search and
+three-column documentation layout. Use Arsenal identity and truthful package status.
+The implementation gate is satisfied by this explicit reference selection.
+
+Home uses three example columns, two on tablets and one on phones. Docs retain a
+1560px reading cap with 240px navigation and 210px contents rail. Catalog expands
+to four columns on large desktops. Original MIT examples remain separate from
+received packages; no received package gets a fake install or copy-code action.
+
+The following earlier proposal is historical, not current visual authority.
 
 ## Job
 

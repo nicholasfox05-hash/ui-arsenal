@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="A local-first library of thoughtful UI. Explore live examples, find interactions, and keep your best references close."
+    />
+    <title>UI Arsenal — Your interface starts here.</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="/fonts/geist.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/theme.js"></script>
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header id="header"></header>
+    <main id="main" tabindex="-1"></main>
+    <footer id="footer"></footer>
+    <dialog id="search-dialog" aria-label="Search Arsenal"></dialog>
+    <dialog id="demo-dialog" aria-labelledby="dialog-title"></dialog>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript
+      >This local interface needs JavaScript. The read-only catalog is available
+      at /api/catalog.</noscript
+    >
+  </body>
+</html>
